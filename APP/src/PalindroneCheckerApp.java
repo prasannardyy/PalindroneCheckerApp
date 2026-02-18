@@ -1,6 +1,8 @@
 public class PalindroneCheckerApp {
-    public static void main(string[] args){
-        System.out.println("welcome pallendrome app management")
+    public static void main(String[] args){
+        System.out.println("welcome palendrome CHECER app management");
+        System.out.println("1.0git ");
+        System.out.println("system initiliazed sucessfully");
     }
 }
 
