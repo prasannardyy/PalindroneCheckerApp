@@ -36,7 +36,7 @@ Palindrome Checking Logic
      ↓
 Result Display
      ↓
-End / Retry
+End /
 
 // objective :
 The main objectives of the Palindrome Checker App are:
