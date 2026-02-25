@@ -1,31 +1,38 @@
+import java.util.Scanner;
+
 public class PalindroneCheckerApp {
-    public static void main(String[] args){
 
+    public static void main(String[] args) {
 
-        // Declare and initialize input
-        String input = "noon";
+        System.out.println("Welcome to Palindrome Checker App - Usecase 10");
 
-        // Assume it is a palindrome
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a sentence: ");
+        String input = sc.nextLine();
+
+        // Normalize string: remove spaces & convert to lowercase
+        String normalized = input.replaceAll("\\s+", "").toLowerCase();
+
+        int start = 0;
+        int end = normalized.length() - 1;
         boolean isPalindrome = true;
 
-        // Two-pointer approach using String.charAt()
-        int start = 0;
-        int end = input.length() - 1;
-
         while (start < end) {
-
-            if (input.charAt(start) != input.charAt(end)) {
+            if (normalized.charAt(start) != normalized.charAt(end)) {
                 isPalindrome = false;
                 break;
             }
-
             start++;
             end--;
         }
 
-        // Display result
-        System.out.println("Input : " + input);
-        System.out.println("Is Palindrome? : " + isPalindrome);
+        if (isPalindrome) {
+            System.out.println("Palindrome");
+        } else {
+            System.out.println("Not Palindrome");
+        }
+
+        sc.close();
     }
 }
-
