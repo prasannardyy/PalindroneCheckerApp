@@ -2,25 +2,19 @@ public class PalindroneCheckerApp {
     public static void main(String[] args){
 
 
-        // Declare and initialize the input string.
-        String input = "radar";
+        // Declare and initialize input
+        String input = "noon";
 
-        // Convert the string into a character array.
-        char[] chars = input.toCharArray();
-
-        // Initialize pointer at the beginning.
-        int start = 0;
-
-        // Initialize pointer at the end.
-        int end = chars.length - 1;
-
-        // Assume palindrome initially.
+        // Assume it is a palindrome
         boolean isPalindrome = true;
 
-        // Continue comparison until pointers cross.
+        // Two-pointer approach using String.charAt()
+        int start = 0;
+        int end = input.length() - 1;
+
         while (start < end) {
 
-            if (chars[start] != chars[end]) {
+            if (input.charAt(start) != input.charAt(end)) {
                 isPalindrome = false;
                 break;
             }
@@ -29,7 +23,7 @@ public class PalindroneCheckerApp {
             end--;
         }
 
-        // Display the result.
+        // Display result
         System.out.println("Input : " + input);
         System.out.println("Is Palindrome? : " + isPalindrome);
     }
