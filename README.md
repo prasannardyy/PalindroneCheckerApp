@@ -51,7 +51,7 @@ To enhance understanding of:
 
 Conditional statements
 
-Loopsdssdsddtcf76
+Loops
 
 String operations
 
