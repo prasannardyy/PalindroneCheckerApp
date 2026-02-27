@@ -9,22 +9,7 @@ User enters a word, phrase, or number into the input field.
 Pre-processing
 
 
-Display Result
-// flow of project :
-User Input 
-     ↓
-     ↓
-Palindrome Checking Log
-// objective :
-The main objectives of the Palindrome Checker App are:
 
-To determine whether a given string or number is a palindrome.
-
-To demonstrate basic string manipulation concepts.
-
-To implement logical comparison algorithms.
-
-To enhance understanding of:
 
 String operations
 
