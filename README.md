@@ -32,12 +32,7 @@ User Input
      ↓
 Data Cleaning / Formatting
      ↓
-Palindrome Checking Logic
-     ↓
-Result Display
-     ↓
-End /
-
+Palindrome Checking Log
 // objective :
 The main objectives of the Palindrome Checker App are:
 
