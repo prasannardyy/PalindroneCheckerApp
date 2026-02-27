@@ -19,7 +19,6 @@ Display Result
 // flow of project :
 User Input 
      ↓
-Data Cleaning / Formatting
      ↓
 Palindrome Checking Log
 // objective :
