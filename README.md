@@ -8,12 +8,6 @@ User enters a word, phrase, or number into the input field.
 
 Pre-processing
 
-Remove spaces.
-
-Convert all characters to lowercase.
-
-Remove special characters (optional, depending on design).
-
 
 Display Result
 // flow of project :
