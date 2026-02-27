@@ -1,10 +1,4 @@
 # PalindroneCheckerApp
-//
-Running Procedure:
-
-Step-by-step flow of execution:
-
-Start the Application
 
 User opens the app (mobile/web/desktop).
 
