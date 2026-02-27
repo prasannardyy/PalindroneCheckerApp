@@ -14,11 +14,6 @@ Convert all characters to lowercase.
 
 Remove special characters (optional, depending on design).
 
-Palindrome Check Logic
-
-Reverse the processed string.
-
-Compare the original processed string with the reversed string.
 
 Display Result
 // flow of project :
