@@ -49,7 +49,6 @@ To implement logical comparison algorithms.
 
 To enhance understanding of:
 
-Conditional statem
 String operations
 
 User input handling
